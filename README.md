@@ -1,1 +1,10 @@
-# DeepLearning-on-Medicinal-plants
+## Automatic Recognition of Medicinal Plant Species Using Machine Learning
+
+#Abstract
+The accurate identification of medicinal plant species is vital for their sustainable use, conservation, and integration into both traditional and modern healthcare systems. In Malawi, where dependence on medicinal plants is high, identification practices remain reliant on expert taxonomists, a method that is often inaccessible, labor-intensive, and prone to delays. This research investigates the application of deep learning, specifically Convolutional Neural Networks (CNNs), for automatic recognition of medicinal plant species using field images collected from Namizimu Forest in Mangochi, Malawi.
+
+A dataset of 544 images comprising leaves, flowers, and fruits from eight medicinal plant species was developed and augmented through transformations such as random rotation, scaling, flipping, and zooming to improve model generalizability. A ResNet50 architecture pre-trained on ImageNet was fine-tuned using transfer learning, significantly improving classification accuracy. The model achieved an overall accuracy of 93%, with perfect classification (100%) recorded for certain species. Evaluation metrics—including precision, recall, F1-score, confusion matrix, and ROC-AUC—demonstrated high reliability, although class imbalance affected underrepresented categories.
+
+A prototype web-based application was implemented to enable real-time plant identification, designed to assist researchers, conservationists, and traditional medicine practitioners. While results were promising, limitations were observed, including dataset size, environmental variability, and computational demands. Recommendations for future research include expanding the dataset, improving generalization across ecological conditions, and extending the system into a mobile application with cloud-based continuous learning capabilities.
+
+This study underscores the potential of deep learning in advancing plant taxonomy, biodiversity conservation, and the sustainable use of medicinal plants in healthcare, providing a practical pathway for bridging indigenous knowledge with modern computational tools.
