@@ -1,6 +1,6 @@
 ## Automatic Recognition of Medicinal Plant Species Using Machine Learning
 
-#Abstract
+# Abstract
 The accurate identification of medicinal plant species is vital for their sustainable use, conservation, and integration into both traditional and modern healthcare systems. In Malawi, where dependence on medicinal plants is high, identification practices remain reliant on expert taxonomists, a method that is often inaccessible, labor-intensive, and prone to delays. This research investigates the application of deep learning, specifically Convolutional Neural Networks (CNNs), for automatic recognition of medicinal plant species using field images collected from Namizimu Forest in Mangochi, Malawi.
 
 A dataset of 544 images comprising leaves, flowers, and fruits from eight medicinal plant species was developed and augmented through transformations such as random rotation, scaling, flipping, and zooming to improve model generalizability. A ResNet50 architecture pre-trained on ImageNet was fine-tuned using transfer learning, significantly improving classification accuracy. The model achieved an overall accuracy of 93%, with perfect classification (100%) recorded for certain species. Evaluation metrics—including precision, recall, F1-score, confusion matrix, and ROC-AUC—demonstrated high reliability, although class imbalance affected underrepresented categories.
